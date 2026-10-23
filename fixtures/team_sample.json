@@ -1,0 +1,26 @@
+{
+  "store": {
+    "name": "演示门店·办公楼店",
+    "storeCode": "DEMO-OFFICE",
+    "beType": "DINE_IN"
+  },
+  "deliveryFeeMock": 6.0,
+  "catalog": [
+    {"code": "COMBO-JSC", "name": "双层吉士汉堡套餐", "price": 32.0, "tags": ["套餐", "汉堡"], "spicy": false, "kid_ok": true},
+    {"code": "COMBO-MXJ", "name": "麦香鸡套餐", "price": 28.0, "tags": ["套餐", "汉堡"], "spicy": false, "kid_ok": true},
+    {"code": "COMBO-BIG", "name": "巨无霸套餐", "price": 42.0, "tags": ["套餐", "汉堡"], "spicy": false, "kid_ok": false},
+    {"code": "COMBO-JLS", "name": "麦辣鸡腿堡套餐", "price": 40.0, "tags": ["套餐", "汉堡", "辣"], "spicy": true, "kid_ok": false},
+    {"code": "KID-SET", "name": "儿童欢乐套餐（演示）", "price": 30.0, "tags": ["儿童", "套餐"], "spicy": false, "kid_ok": true},
+    {"code": "FRIES-M", "name": "薯条（中）", "price": 13.0, "tags": ["小食", "薯条"], "spicy": false, "kid_ok": true},
+    {"code": "NUG-6", "name": "麦乐鸡 6 块", "price": 16.0, "tags": ["小食", "鸡块"], "spicy": false, "kid_ok": true},
+    {"code": "DRINK-0", "name": "可口可乐（无糖中）", "price": 11.0, "tags": ["饮料", "无糖"], "spicy": false, "kid_ok": true},
+    {"code": "DRINK-OJ", "name": "橙汁（中）", "price": 13.0, "tags": ["饮料", "少糖可选"], "spicy": false, "kid_ok": true}
+  ],
+  "defaultTeam": [
+    {"id": 1, "label": "忌辣"},
+    {"id": 2, "label": "儿童"},
+    {"id": 3, "label": "少糖"},
+    {"id": 4, "label": "正常"},
+    {"id": 5, "label": "只要小食"}
+  ]
+}
